@@ -109,3 +109,23 @@ if __name__ == "__main__":
     print("Gradient Boosting Model Precision:", gb_precision)
     print("Gradient Boosting Model Recall:", gb_recall)
     print("Gradient Boosting Confusion Matrix:\n", gb_cm)
+
+#Output:
+
+# Random Forest Cross-validation Accuracy: 0.6950841628016049  
+# Random Forest Model Accuracy: 0.6807228915662651  
+# Random Forest Model Precision: 0.6495406357253748  
+# Random Forest Model Recall: 0.6807228915662651  
+# Random Forest Confusion Matrix:  
+# [[300  47  94]  
+#  [ 68  45 132]  
+#  [ 43  40 559]]  
+
+# Gradient Boosting Cross-validation Accuracy: 0.7115576632445672  
+# Gradient Boosting Model Accuracy: 0.7070783132530121  
+# Gradient Boosting Model Precision: 0.6761677666303085  
+# Gradient Boosting Model Recall: 0.7070783132530121  
+# Gradient Boosting Confusion Matrix:  
+# [[304  46  91]  
+#  [ 64  44 137]  
+#  [ 37  14 591]]
