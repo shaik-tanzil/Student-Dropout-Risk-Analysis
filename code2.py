@@ -100,3 +100,17 @@ if __name__ == "__main__":
     reg_model_l1, scaler_l1, X_test_scaled_l1 = apply_l1_regularization(X_train, y_train, X_test, y_test)
     accuracy_l1 = reg_model_l1.score(X_test_scaled_l1, y_test)
     print("\nL1 Regularized Model Accuracy (Lasso):", accuracy_l1)
+
+
+#Output:
+
+#Decision Tree Model Accuracy: 0.6641566265060241
+#Confusion Matrix:
+#[[297  46  98]
+# [ 81  41 123]
+# [ 54  44 544]]
+
+
+#L2 Regularized Model Accuracy (Ridge): 0.6634036144578314
+#L1 Regularized Model Accuracy (Lasso): 0.6634036144578314
+
