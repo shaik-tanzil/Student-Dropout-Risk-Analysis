@@ -38,5 +38,4 @@ This repository contains a complete end-to-end Machine Learning workflow, divide
 * Python
 * NumPy, Pandas
 * Scikit-learn
-
-Matplotlib / Seaborn
+* Matplotlib / Seaborn
