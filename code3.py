@@ -84,3 +84,8 @@ if __name__ == "__main__":
     print("\nRandom Forest Model Accuracy:", rf_accuracy)
     print("Random Forest Model Precision:", rf_precision)
     print("Random Forest Model Recall:", rf_recall)
+
+#Output
+#Random Forest Model Accuracy: 0.6807228915662651
+#Random Forest Model Precision: 0.6495406357253748
+#Random Forest Model Recall: 0.6807228915662651
